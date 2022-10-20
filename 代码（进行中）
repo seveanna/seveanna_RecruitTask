@@ -1,0 +1,48 @@
+#include <iostream>
+#include <cmath>
+#include <ctime>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	int n,A=200,B=200,i=2;
+	cin>>n;
+    for(;A>0&&B>0;)
+	{
+	while(A>0)
+	{
+	if(n%2==0) 	cout<<A<</n<<B<<endl;
+	break;
+	else if(n%3==0) 
+	{
+    B=B-10;
+	cout<<A<</n<<B<<endl;
+	break;	
+	}
+	else A=A-40;
+	cout<<A<</n<<B<<endl;
+	cin>>n[i];
+	i++;
+	}
+	cin>>n[i];
+	while(b>0)
+	{
+	if(n%2==0)	cout<<A<</n<<B<<endl; 
+	break;
+	else if(n%3==0)
+	{
+	B=B-10;	
+	cout<<A<</n<<B<<endl;
+	break;
+	}
+	else A=A-40;
+	cout<<A<</n<<B<<endl;
+	cin>>n[i];
+	}
+    }
+	
+	
+	
+	
+	
+	return 0;
+}
